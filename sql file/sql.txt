@@ -1,0 +1,8 @@
+Executed SQL Statement : Alter table `cmmdmpcf`.`work`   
+  change `work_title` `CategoryName` varchar(200) CHARSET latin1 COLLATE latin1_swedish_ci NULL,
+  change `work_category` `Description` mediumtext NULL,
+  change `work_sub_category` `PostingDate` timestamp(200) DEFAULT CURRENT_TIMESTAMP   NULL,
+  change `description` `UpdationDate` timestamp DEFAULT '0000-00-00 00:00:00'   NULL,
+  change `image` `Is_Active` int(1) NULL 
+Error Number : 1067 
+Error Message: Invalid default value for 'PostingDate' 
